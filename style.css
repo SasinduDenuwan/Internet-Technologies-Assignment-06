@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-image: url("/images/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cal-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+    height: 50vh;
+}
+
+.clear-btn{
+    width: 80px;
+    border-radius: 50px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: tomato;
+
+}
+
+.num-btn, .cal-btn{
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.cal-buttons{
+    height: 100%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+}
+
+.result-display{
+    font-size: 50px;
+    padding-left: 20px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    text-align: right;
+}
+
+.calculation{
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    background: radial-gradient(#f8cd91 0%, #e86026 100%);
+}
+
+.num-btn:hover{
+    color: white;
+    background: radial-gradient(#9fe2f9 0%, #10549d 100%);    
+}
+
+.cal-btn{
+    background: radial-gradient(#50bee2 0%, #264de8 100%);
+}
+
+.cal-btn:hover{
+    color: white;
+    background: radial-gradient(#78c8e3 0%, #3326e8 100%);
+}
+
+.calculation:hover{
+    background: radial-gradient(#eee1ce 0%, #d64000 100%);
+}
