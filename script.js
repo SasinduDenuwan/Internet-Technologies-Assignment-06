@@ -3,7 +3,7 @@ function getValue(value){
 }
 
 function clearValue(){
-    document.getElementById('result').value = '';
+    document.getElementById('result').value= '';
 }
 
 function calculateValue(){
