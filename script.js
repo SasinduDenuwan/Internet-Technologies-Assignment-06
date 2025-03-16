@@ -1,4 +1,4 @@
-function appendValue(value){
+function getValue(value){
     document.getElementById('result').value += value;
 }
 
